@@ -1,0 +1,6 @@
+image:
+  repository: gcr.io/mausam-pandey/my-nginx
+  tag: latest
+replicaCount: 2
+service:
+  type: LoadBalancer
